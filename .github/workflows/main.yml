@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - testr2
 
 jobs:
   deploy:
