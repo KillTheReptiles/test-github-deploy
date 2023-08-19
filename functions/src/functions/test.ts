@@ -1,4 +1,4 @@
-export const testFunctios = async (data: any, context: any) => {
+export const ymlTest = async (data: any, context: any) => {
   try {
     return { message: 'Hola Test' };
   } catch (error) {
