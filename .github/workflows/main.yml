@@ -46,7 +46,7 @@ jobs:
         id: create-config-json
         with:
           name: 'permissions.json'
-          json: '{"type": "${FB_PROJECT_ID}","auth_uri": "${FB_AUTH_URI}","auth_provider_x509_cert_url": "${FB_AUTH_PROVIDER_X509_CERT_URL}","private_key_id": "${FB_PRIVATE_KEY_ID}","project_id": "${FB_PROJECT_ID}","private_key": "${FB_PRIVATE_KEY/\n/\n}","token_uri": "${FB_TOKEN_URI}", "client_email": "${FB_CLIENT_EMAIL}","client_x509_cert_url": "${FB_CLIENT_X509_CERT_URL}","client_id": "${FB_CLIENT_ID}"}'
+          json: '{"type": "${FB_PROJECT_ID}","auth_uri": "${FB_AUTH_URI}","auth_provider_x509_cert_url": "${FB_AUTH_PROVIDER_X509_CERT_URL}","private_key_id": "${FB_PRIVATE_KEY_ID}","project_id": "${FB_PROJECT_ID}","private_key": "${FB_PRIVATE_KEY}","token_uri": "${FB_TOKEN_URI}", "client_email": "${FB_CLIENT_EMAIL}","client_x509_cert_url": "${FB_CLIENT_X509_CERT_URL}","client_id": "${FB_CLIENT_ID}"}'
           dir: 'functions/src/config/database/'
 
       - name: Deploy Firebase Functions
