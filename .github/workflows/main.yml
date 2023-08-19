@@ -1,11 +1,9 @@
 name: Firebase Deploy
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
-      - testr2
 
 jobs:
   deploy:
